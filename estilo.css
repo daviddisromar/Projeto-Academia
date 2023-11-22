@@ -12,6 +12,54 @@
   margin: 0 auto;
 }
 
+header{
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo{
+  margin-top: 8px;
+  color: #ec4141;
+}
+
 .menu-container{
   justify-content: space-around;
+}
+
+.menu-container a.active-menu{
+  background-color: #ec4141;
+}
+
+.menu-container a{
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0px 10px;
+  transition: 0.8s;
+  text-decoration: none;
+  line-height: 40px;
+  color: #fff;
+}
+
+.menu-container a:hover{
+  color: #ec4141;
+}
+
+.main{
+  min-height: 800px;
+  background-image: url('../img/logo2.webp');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text-chamada{
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  margin-left: 970px;
+}
+
+.text-chamada h1{
+  font-size: 50px;
 }
